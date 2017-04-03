@@ -7,6 +7,7 @@ Thank you for taking the interest in viewing the Legacy of the Wizard randomizer
 
 USING THE RANDOMIZER
 
+0. Download the .zip file and run setup.
 1. Select what options you want to have
 2. Click Button
 3. Select ROM file (this will overwrite your file, so make sure you are using a backup)
