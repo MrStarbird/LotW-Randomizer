@@ -1,7 +1,18 @@
 # LotW-Randomizer
 Game Randomizer for Legacy of the Wizard
 
-Thank you for taking the interest in viewing the Legacy of the Wizard randomizer. The code is written in vb.net so there may possibly be some issues with compatibility on the .NET Framework
+DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
+
+Thank you for taking the interest in viewing the Legacy of the Wizard randomizer. The code is written in vb.net so there may possibly be some issues with compatibility on the .NET Framework.
+
+USING THE RANDOMIZER
+
+1. Select what options you want to have
+2. Click Button
+3. Select ROM file (this will overwrite your file, so make sure you are using a backup)
+4. Enjoy
+
+NOTE: Currently, the game does NOT check to make sure you chose a Legacy of the Wizard ROM. This will be fixed, but right now the program is pretty dumb and will not know if you are opening a rom of Legacy of the Wizard or a rom of Legend of Zelda. It won't even be able to tell if you are opening important tax documents saved on your computer. Just be careful.
 
 Here is what the Randomizer currently does:
 
