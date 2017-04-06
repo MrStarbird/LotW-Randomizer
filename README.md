@@ -18,10 +18,15 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other NES roms have the same first 32 bytes as LotW. If this happens, please let me know.
 
 CHANGELOG:
+
 4/6/17 - version 0.3b
+
 -Added a process that creates a new copy from the original file and writes to the copy.
+
 -Added a rom validation check
+
 -Added a "Shuffle" feature which takes the vanilla chest contents and shuffles them around. This means that the Crowns can be located in any chest. Removed 1 Spike Boot from the list and replaced it with a Dragon Shield. The Dragonslayer is still in the same spot.
+
 -Changed 3 shops in the game: The Home Shop, the Shop to the far right of the top row in Level 1, and the Hidden Shop above the Dragon Portrait. The Home shop contains the Mattock and Power Glove, the Level 1 Shop contains the Wings and Spring Shoes, and the Hidden Shop contains the Crossbow and Key Stick. Each item sells for 70 Gold and are there because those are technically all the "required" items needed to get through all dungeons completely. With those shops, there should be no instances of being unable to finish the game.
 
 Here is what the Randomizer currently does:
