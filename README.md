@@ -43,7 +43,7 @@ By having this selected, all 5 characters will have random Jump, Power, and Dist
 Here is what I hope to do in future releases:
 
 1. Randomize Shop Inventory & Prices
-This could add quite a bit of difficulty to the game, so the intention is to also have the "Home" shop contain a Glove/Mattock and the Wings, two important items to advance in the game. 
+This could add quite a bit of difficulty to the game, which is why I have the "home shops".
 
 2. Randomize Dungeon Music
 Having this option would be cool, especially since there is an unreleased track that is pretty cool to listen to. 
