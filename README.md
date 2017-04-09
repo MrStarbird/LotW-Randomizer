@@ -56,8 +56,8 @@ By having this selected, all treasures in the game (with the exception of Crown 
 2. Shuffle Vanilla Treasure Contents
 This takes the treasure contents in Vanilla and shuffles them around. Each piece of equipment can only be found once now (originally, the Spike Shoes had 2 spots, but I removed one and replaced it with the Dragon Shield, which had 0 originally) and Crowns can now be in any chest. There are also 4 Crystals, 3 Elixirs, 1 Magic Potion, 3 Scrolls, 3 Keys, 3 Money Bags, 5 Magic Refills, and 26 Health Refills. The Dragon Slayer stays in its original position.
 
-3. Shuffle Vanilla Treasure Contents with "Half Bread"
-Takes the same treasure list, cuts the amount of of Bread in chests from 26 to 13, doubles the amount of equipment, adds a Magic Potion and Elixir to the list. Makes the game a bit more casual-friendly.
+3. Shuffle Vanilla Treasure Contents with "Half Bread" options.
+Takes the same treasure list from Vanilla, cuts the amount of of Bread in chests from 26 to 13, and the user can choose between either double equipment rate, or extra Money/Keys/Scrolls. Either choice makes the game a bit easier.
 
 4. Randomize Character Stats
 By having this selected, all 5 characters will have random Jump, Power, and Distance stats. Jump should be anywhere between 18 and 26, Strength anywhere between 1 and 3, and Distance anywhere between 8 and 32. This will be altered slightly in the future as a Jump of 26 is required just to get to the chest where Lyll's Crown is in vanilla. But for now, I placed a notice next to the checkbox saying that the knowledge of Pause-jumping would be highly recommended in case Lyll gets a low jump stat.
