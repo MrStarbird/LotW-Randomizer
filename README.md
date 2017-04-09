@@ -11,7 +11,7 @@ USING THE RANDOMIZER
 1. Select what options you want to have
 2. Enter in any number from 0 to 99999999 (optional) into the "Seed #" field
 3. Click on the "Save Path" button and choose the location and file name you wish to save to
-4. Click on the "Randomize Rom" button and choose your ORIGINAL Rom file.
+4. Choose your options, click on the "Randomize Rom" button and choose your ORIGINAL Rom file.
 5. The Randomized Rom of Legacy of the Wizard will be saved to your chosen location and file name and the program will be CLOSED
 
 NOTE: Though there is a validation process in the program to validate the rom, it only checks the first 32 bytes of the file to see if it compares. It also so far ONLY accepts Roms with an NES header on it, so if you try using a file that doesn't have the header, you will get an Invalid Rom notification. If that happens, please let me know. My twitch ID is MrStarbird and I am on in some form nearly daily.
@@ -19,6 +19,14 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other NES roms have the same first 32 bytes as LotW. If this happens, please let me know.
 
 Version History:
+
+4/9/17 - version 0.41b
+
+-Minor update to clean up code and form. Form is no longer resizable.
+
+-Added a 2nd option for Half Bread, allowing for either double equipment OR extra money, keys, and scrolls.
+
+-Gave myself credit on the form. (finally)
 
 4/8/17 - version 0.4b
 
