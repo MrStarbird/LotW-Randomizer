@@ -61,6 +61,7 @@ Version History:
 Here is what the Randomizer currently does:
 
 1. Change Treasure Contents
+
 *User can randomize treasure contents entirely. Rings, Crosses, Shields, and Poison can be in chests and you could possibly find multiple of certain items or none at all. Crowns and the Dragonslayer will remain in their original spots.
 
 *User can shuffle the contents of the original game treasure list (slightly modified to add a shield) or from a list that halves the amount of bread in the list and replaces it with other items. The Dragonslayer will remain in the same spot.
@@ -74,6 +75,7 @@ Half Bread, More Money/Keys/Scrolls list is as follows: 13 Bread, 5 Magic Refill
 NOTE: If any of the treasure options are selected other than default, then as a safety there are three easily accessible shops that contain all the items needed to possibly beat the game for a slightly high price. This feature may be removed in the future, but for now there should be no possible situations where the game cannot be beaten.
 
 2. Change Character Stats
+
 *User can randomize the stats of each character between certain values. Jump can be anywhere from 18-28, Power can be anywhere from 1-3, and Distance can be anywhere from 8 to 32 (these match the minimum and maximum stats in vanilla). Knowledge of Pause-Jumping is recommended.
 
 *User can set each character's stats the same as an average of each character stats. Jump is 20, Power is 2, and Distance is 22. Knowledge of Pause-Jumping is recommended.
@@ -81,47 +83,60 @@ NOTE: If any of the treasure options are selected other than default, then as a 
 *User can set each character's stat to be the highest possible from vanilla stats without use of enhancing items. Jump is 26, Power is 3, Distance is 32. This option makes the game quite a bit easier and is recommended for those new to the game, not just the randomizer.
 
 3. Change Shops
+
 *User can randomize what each shop holds and the price that they sell for. Prices range anywhere from 5 to 95 Gold.
 
 *User can shuffle the shops contents and prices from vanilla around the map. 
 
 NOTE: If the user chooses to keep the default treasure contents and chooses to change the shops, then the Home Shop, Level 1 Shop, and Dragon's Portrait hidden shop (which I had set to specific items for 70 gold a piece as a safety) will instead be added to the randomization or shuffle.
 
-Here is what I hope to do in future releases:
-
 4. Randomize Enemy Groups
+
 *User can choose to randomize what enemies appear in each area. The damage these enemies deal do NOT differ (think of it more or less as a sprite swap), though hopefully the option to change damage will be added for later versions).
 
+Here is what I hope to do in future releases:
+
 1. Randomize Dungeon Music
+
 Having this option would be cool, especially since there is an unreleased track that is pretty cool to listen to. This is a bit trickier than original intended as there is a 2nd byte somewhere in each scene that controls something else, so this option will be delayed a bit more.
 
 2. Randomize or have selectable pallette changes.
+
 Nothing big, but something that could be fun for a change.
 
 3. Randomize chest locations
+
 There are 64 chests in the game, one per scene. Currently, they are all in the same spot, but it is possible to move them to a different spot within the scene. I would probably limit to some certain spots since we don't want them stuck in a wall or anything like that.
 
 4. Randomize character item usage (still looking into)
+
 I believe I have seen data on this but until I test it I am unsure, but if possible, I would love to be able to change what character can use what item. Imagine Xemn using the Wings or Pochi using the DragonSlayer. Would make things different, but certain item sets would have to be the or close. For instance, the Wings would have to be on a character that can use a Key Stick and either Crossbow or Mattock just to be able to get through Meyna's Level. Consumables (Elixir, Crystal, etc) would still be used by all.
 
 5. Give option for MSX2 Layout
+
 The MSX2 version of the game offers quite a few differences from the NES version in terms of layout. If you have ever played either, you will notice that Lyll's level is VERY much different between versions. 
 
 6. Eliminate shortcuts
+
 I could possibly give an option for a player to give themselves a challenge by cutting off certain shortcuts (like in Lyll's level which is possible to skip most of it just by using the Pause-jump glitch). May or may not try this.
 
 7. Randomize Dungeon layouts
+
 This would be the ultimate goal of the randomizer. Currently, it is beyond my knowledge on how to make the layout random without making an absolute mess, but this still would be the best thing I could hope for in the randomizer. 
 
 8. Randomize Dragonslayer Location
+
 This would be an option, but would make the game very easy as you could finish the game as soon as you find it without having to do all the crowns (unless the Dragonslayer was still in its original spot).
 
 9. Randomize Portrait teleports
+
 I am not sure if this is possible at all, but it would be interesting if the program could make the portrait warps take you somewhere else. It would give quite a bit of a challenge, especially for those familiar with the game already.
 
 Known Bugs:
 
 There is a SLIGHT possibility that the seed generator could be different between users using the same seed number. I believe this has to do with users working on different versions of the .NET Framework, but for now it is possible.
+
+THANKS:
 
 Special Thanks goes to DarkwingDuckSDA, deranged_squirrel_fighter, PanzerDave, EunosXX, and DragonarchSDA for offering to test and play the randomizer. The feedback is greatly appreciated!
 
