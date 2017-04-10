@@ -20,6 +20,16 @@ It is also possible that other NES roms have the same first 32 bytes as LotW. If
 
 Version History:
 
+4/10/2017 - version 0.5b
+
+-Added options to Shuffle or Randomize Shops
+
+-Added option to randomize enemy groups in each area
+
+-Fixed a bug where the files were not saving as .nes by default
+
+-Fixed a bug where treasures were not getting shuffled properly.
+
 4/9/17 - version 0.41b
 
 -Minor update to clean up code and form. Form is no longer resizable.
@@ -50,63 +60,69 @@ Version History:
 
 Here is what the Randomizer currently does:
 
-1. Randomize Treasure Contents
-By having this selected, all treasures in the game (with the exception of Crown and Dragon Slayer spots) will have their contents changed to a random item. Each chest can be any item in the game, including Rings, Crosses, Shields, and even POISON. It is also possibly to get multiple of a certain item and none of another, all depending on what the RNG gives. 
+1. Change Treasure Contents
+*User can randomize treasure contents entirely. Rings, Crosses, Shields, and Poison can be in chests and you could possibly find multiple of certain items or none at all. Crowns and the Dragonslayer will remain in their original spots.
 
-2. Shuffle Vanilla Treasure Contents
-This takes the treasure contents in Vanilla and shuffles them around. Each piece of equipment can only be found once now (originally, the Spike Shoes had 2 spots, but I removed one and replaced it with the Dragon Shield, which had 0 originally) and Crowns can now be in any chest. There are also 4 Crystals, 3 Elixirs, 1 Magic Potion, 3 Scrolls, 3 Keys, 3 Money Bags, 5 Magic Refills, and 26 Health Refills. The Dragon Slayer stays in its original position.
+*User can shuffle the contents of the original game treasure list (slightly modified to add a shield) or from a list that halves the amount of bread in the list and replaces it with other items. The Dragonslayer will remain in the same spot.
 
-3. Shuffle Vanilla Treasure Contents with "Half Bread" options.
-Takes the same treasure list from Vanilla, cuts the amount of of Bread in chests from 26 to 13, and the user can choose between either double equipment rate, or extra Money/Keys/Scrolls. Either choice makes the game a bit easier.
+Original list (modified) is as follows: 26 Bread, 5 Magic Refill, 3 Money Bag, 3 Keys, 3 Scrolls, 4 Crystals, 4 Crowns, 3 Elixirs, 1 Magic Potion, 1 Wing, 1 Armor, 1 Spike Shoes, 1 Spring Shoes, 1 Mattock, 1 Glove, 1 Crossbow, 1 KeyStick, 1 Power Knuckle, 1 Fire Rod, and 1 Shield.
 
-4. Randomize Character Stats
-By having this selected, all 5 characters will have random Jump, Power, and Distance stats. Jump should be anywhere between 18 and 26, Strength anywhere between 1 and 3, and Distance anywhere between 8 and 32. This will be altered slightly in the future as a Jump of 26 is required just to get to the chest where Lyll's Crown is in vanilla. But for now, I placed a notice next to the checkbox saying that the knowledge of Pause-jumping would be highly recommended in case Lyll gets a low jump stat.
+Half Bread, 2x Equipment list is as follows: 13 Bread, 5 Magic Refill, 3 Money Bag, 3 Keys, 3 Scrolls, 4 Crystals, 4 Crowns, 4 Elixirs, 2 Magic Potion, 2 Wing, 2 Armor, 2 Spike Shoes, 2 Spring Shoes, 2 Mattock, 2 Glove, 2 Crossbow, 2 KeyStick, 2 Power Knuckle, 2 Fire Rod, and 2 Shield.
 
-5. Normalize Character Stats
-Sets all characters equal to each other in their stats with "Average" stats. Pause-jumping knowledge still may be required, depending on where the crowns are.
+Half Bread, More Money/Keys/Scrolls list is as follows: 13 Bread, 5 Magic Refill, 7 Money Bag, 8 Keys, 7 Scrolls, 4 Crystals, 4 Crowns, 3 Elixirs, 1 Magic Potion, 1 Wing, 1 Armor, 1 Spike Shoes, 1 Spring Shoes, 1 Mattock, 1 Glove, 1 Crossbow, 1 KeyStick, 1 Power Knuckle, 1 Fire Rod, and 1 Shield.
 
-6. Super Character Stats
-Sets all characters equal to each other in their stats with "Super" stats. Everyone is basically like Lyll but with Xemn's strength. This makes the game quite a bit more casual-friendly and decreases the difficult significantly.
+NOTE: If any of the treasure options are selected other than default, then as a safety there are three easily accessible shops that contain all the items needed to possibly beat the game for a slightly high price. This feature may be removed in the future, but for now there should be no possible situations where the game cannot be beaten.
+
+2. Change Character Stats
+*User can randomize the stats of each character between certain values. Jump can be anywhere from 18-28, Power can be anywhere from 1-3, and Distance can be anywhere from 8 to 32 (these match the minimum and maximum stats in vanilla). Knowledge of Pause-Jumping is recommended.
+
+*User can set each character's stats the same as an average of each character stats. Jump is 20, Power is 2, and Distance is 22. Knowledge of Pause-Jumping is recommended.
+
+*User can set each character's stat to be the highest possible from vanilla stats without use of enhancing items. Jump is 26, Power is 3, Distance is 32. This option makes the game quite a bit easier and is recommended for those new to the game, not just the randomizer.
+
+3. Change Shops
+*User can randomize what each shop holds and the price that they sell for. Prices range anywhere from 5 to 95 Gold.
+
+*User can shuffle the shops contents and prices from vanilla around the map. 
+
+NOTE: If the user chooses to keep the default treasure contents and chooses to change the shops, then the Home Shop, Level 1 Shop, and Dragon's Portrait hidden shop (which I had set to specific items for 70 gold a piece as a safety) will instead be added to the randomization or shuffle.
 
 Here is what I hope to do in future releases:
 
-1. Randomize Shop Inventory & Prices
-This could add quite a bit of difficulty to the game, which is why I have the "home shops".
+4. Randomize Enemy Groups
+*User can choose to randomize what enemies appear in each area. The damage these enemies deal do NOT differ (think of it more or less as a sprite swap), though hopefully the option to change damage will be added for later versions).
 
-2. Randomize Dungeon Music
-Having this option would be cool, especially since there is an unreleased track that is pretty cool to listen to. 
+1. Randomize Dungeon Music
+Having this option would be cool, especially since there is an unreleased track that is pretty cool to listen to. This is a bit trickier than original intended as there is a 2nd byte somewhere in each scene that controls something else, so this option will be delayed a bit more.
 
-3. Randomize or have selectable pallette changes.
+2. Randomize or have selectable pallette changes.
 Nothing big, but something that could be fun for a change.
 
-4. Randomize chest locations
+3. Randomize chest locations
 There are 64 chests in the game, one per scene. Currently, they are all in the same spot, but it is possible to move them to a different spot within the scene. I would probably limit to some certain spots since we don't want them stuck in a wall or anything like that.
 
-5. Randomize character item usage (still looking into)
-I believe I have seen data on this but until I test it I am unsure, but if possible, I would love to be able to change what character can use what item. Imagine Xemn using the Wings or Pochi using the DragonSlayer. Would make things different, but certain item sets would have to be the or close. For instance, the Wings would have to be on a character that can use a Key Stick and either Crossbow or Mattock just to be able to get through Meyna's Level. Consumables (Elixir, Crystal, etc) would still be used by all
+4. Randomize character item usage (still looking into)
+I believe I have seen data on this but until I test it I am unsure, but if possible, I would love to be able to change what character can use what item. Imagine Xemn using the Wings or Pochi using the DragonSlayer. Would make things different, but certain item sets would have to be the or close. For instance, the Wings would have to be on a character that can use a Key Stick and either Crossbow or Mattock just to be able to get through Meyna's Level. Consumables (Elixir, Crystal, etc) would still be used by all.
 
-6. Give option for MSX2 Layout
+5. Give option for MSX2 Layout
 The MSX2 version of the game offers quite a few differences from the NES version in terms of layout. If you have ever played either, you will notice that Lyll's level is VERY much different between versions. 
 
-7. Eliminate shortcuts
+6. Eliminate shortcuts
 I could possibly give an option for a player to give themselves a challenge by cutting off certain shortcuts (like in Lyll's level which is possible to skip most of it just by using the Pause-jump glitch). May or may not try this.
 
-8. Randomize Dungeon layouts
+7. Randomize Dungeon layouts
 This would be the ultimate goal of the randomizer. Currently, it is beyond my knowledge on how to make the layout random without making an absolute mess, but this still would be the best thing I could hope for in the randomizer. 
 
-9. Randomize which enemies appear in which scene
-It is possible to change enemy groups in each area. Doing so, it is possible to have the strong enemies from Pochi's dungeon in the very first scene. Could make certain parts of the game more difficult than need be, but who doesn't like a challenge?
-
-10. Randomize Dragonslayer Location
+8. Randomize Dragonslayer Location
 This would be an option, but would make the game very easy as you could finish the game as soon as you find it without having to do all the crowns (unless the Dragonslayer was still in its original spot).
 
-11. Randomize Portrait teleports
+9. Randomize Portrait teleports
 I am not sure if this is possible at all, but it would be interesting if the program could make the portrait warps take you somewhere else. It would give quite a bit of a challenge, especially for those familiar with the game already.
 
-Known Bugs
+Known Bugs:
 
--None yet-
+There is a SLIGHT possibility that the seed generator could be different between users using the same seed number. I believe this has to do with users working on different versions of the .NET Framework, but for now it is possible.
 
-Special Thanks goes to DarkwingDuckSDA, deranged_squirrel_fighter, PanzerDave, and DragonarchSDA for offering to test and play the randomizer. The feedback is greatly appreciated!
+Special Thanks goes to DarkwingDuckSDA, deranged_squirrel_fighter, PanzerDave, EunosXX, and DragonarchSDA for offering to test and play the randomizer. The feedback is greatly appreciated!
 
 VERY Special Thanks to Serria for putting up with me banging my head against my computer trying to figure out how to get a program to do what I want it to.
