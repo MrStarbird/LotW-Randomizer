@@ -20,6 +20,10 @@ It is also possible that other NES roms have the same first 32 bytes as LotW. If
 
 Version History:
 
+4/11/2017 - version 0.51b
+
+-Changed a value in the coding to (hopefully) remedy the graphical bug from the Randomize Enemy Group option.
+
 4/10/2017 - version 0.5b
 
 -Added options to Shuffle or Randomize Shops
@@ -94,6 +98,9 @@ NOTE: If the user chooses to keep the default treasure contents and chooses to c
 
 *User can choose to randomize what enemies appear in each area. The damage these enemies deal do NOT differ (think of it more or less as a sprite swap), though hopefully the option to change damage will be added for later versions).
 
+NOTE: There is a graphical bug that occurs currently with this option. The game is still playable without crashes (so far). Look in the Known Bugs section for details.
+
+
 Here is what I hope to do in future releases:
 
 1. Randomize Dungeon Music
@@ -135,6 +142,8 @@ I am not sure if this is possible at all, but it would be interesting if the pro
 Known Bugs:
 
 There is a SLIGHT possibility that the seed generator could be different between users using the same seed number. I believe this has to do with users working on different versions of the .NET Framework, but for now it is possible.
+
+Using the Randomize Enemy option can sometimes lead to glitched enemies and items. This can be fixed by going to the Home and coming back out. The fix is being worked on.
 
 THANKS:
 
