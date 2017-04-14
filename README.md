@@ -8,17 +8,29 @@ Thank you for taking the interest in viewing the Legacy of the Wizard randomizer
 USING THE RANDOMIZER
 
 0. Download the .zip file and run setup.
-1. Select what options you want to have
+1. Select what options you want to have OR enter up to 5 letters in the FLAG text box and press "Set Flag"
 2. Enter in any number from 0 to 99999999 (optional) into the "Seed #" field
 3. Click on the "Save Path" button and choose the location and file name you wish to save to
 4. Choose your options, click on the "Randomize Rom" button and choose your ORIGINAL Rom file.
-5. The Randomized Rom of Legacy of the Wizard will be saved to your chosen location and file name and the program will be CLOSED
+5. The Randomized Rom of Legacy of the Wizard will be saved to your chosen location and file name and the program will be CLOSED.
 
 NOTE: Though there is a validation process in the program to validate the rom, it only checks the first 32 bytes of the file to see if it compares. It also so far ONLY accepts Roms with an NES header on it, so if you try using a file that doesn't have the header, you will get an Invalid Rom notification. If that happens, please let me know. My twitch ID is MrStarbird and I am on in some form nearly daily.
 
 It is also possible that other NES roms have the same first 32 bytes as LotW. If this happens, please let me know.
 
 Version History:
+
+4/13/2017 - version 0.6b
+
+-Added an option to randomize character equipment.
+
+-Added Flags.
+
+-Added Mouseover Tool tips.
+
+-Cleaned up some code.
+
+-Cleaned up the form a bit
 
 4/11/2017 - version 0.51b
 
@@ -100,6 +112,13 @@ NOTE: If the user chooses to keep the default treasure contents and chooses to c
 
 NOTE: There is a graphical bug that occurs currently with this option. The game is still playable without crashes (so far). Look in the Known Bugs section for details.
 
+5. Randomize Equipment sets
+
+*User can choose to randomize what items can be used by which characters. There are checks in place to make sure that 1 character gets a Glove, 1 character gets a Mattock/Spring Shoe or Mattock/Wing Combo, and 1 character gets a Crossbow/Wing/Keystick combo. The remaining 2 characters will get a combination of top-row items excluding the Glove, Mattock, and Crossbow.
+
+*All five characters can now use Power Knuckle, Fire Rod, Crystal, Elixir, Magic Potion, and Dragon Shield. One character is randomly chosen to be able to use the DragonSlayer and Crown.
+
+*Because of Pochi's invulnerability, I have decided to not allow him use of a Block-Moving item (would make him too powerful). He can possibly use any other top-row item.
 
 Here is what I hope to do in future releases:
 
@@ -115,35 +134,33 @@ Nothing big, but something that could be fun for a change.
 
 There are 64 chests in the game, one per scene. Currently, they are all in the same spot, but it is possible to move them to a different spot within the scene. I would probably limit to some certain spots since we don't want them stuck in a wall or anything like that.
 
-4. Randomize character item usage (still looking into)
-
-I believe I have seen data on this but until I test it I am unsure, but if possible, I would love to be able to change what character can use what item. Imagine Xemn using the Wings or Pochi using the DragonSlayer. Would make things different, but certain item sets would have to be the or close. For instance, the Wings would have to be on a character that can use a Key Stick and either Crossbow or Mattock just to be able to get through Meyna's Level. Consumables (Elixir, Crystal, etc) would still be used by all.
-
-5. Give option for MSX2 Layout
+4. Give option for MSX2 Layout
 
 The MSX2 version of the game offers quite a few differences from the NES version in terms of layout. If you have ever played either, you will notice that Lyll's level is VERY much different between versions. 
 
-6. Eliminate shortcuts
+5. Eliminate shortcuts
 
 I could possibly give an option for a player to give themselves a challenge by cutting off certain shortcuts (like in Lyll's level which is possible to skip most of it just by using the Pause-jump glitch). May or may not try this.
 
-7. Randomize Dungeon layouts
+6. Randomize Dungeon layouts
 
 This would be the ultimate goal of the randomizer. Currently, it is beyond my knowledge on how to make the layout random without making an absolute mess, but this still would be the best thing I could hope for in the randomizer. 
 
-8. Randomize Dragonslayer Location
+7. Randomize Dragonslayer Location
 
 This would be an option, but would make the game very easy as you could finish the game as soon as you find it without having to do all the crowns (unless the Dragonslayer was still in its original spot).
 
-9. Randomize Portrait teleports
+8. Randomize Portrait teleports
 
 I am not sure if this is possible at all, but it would be interesting if the program could make the portrait warps take you somewhere else. It would give quite a bit of a challenge, especially for those familiar with the game already.
+
+9. Randomize enemy stats
+
+Each enemy in a screen has its own Sprite, Health, Speed, Damage, and Behavior. Randomizing each of these numbers for 64 scenes would be quite an undertaking, but it can be done. Possibly will be done within the next release or two.
 
 Known Bugs:
 
 There is a SLIGHT possibility that the seed generator could be different between users using the same seed number. I believe this has to do with users working on different versions of the .NET Framework, but for now it is possible.
-
-Using the Randomize Enemy option can sometimes lead to glitched enemies and items. This can be fixed by going to the Home and coming back out. The fix is being worked on.
 
 THANKS:
 
