@@ -1,5 +1,5 @@
 # LotW-Randomizer
-Game Randomizer for Legacy of the Wizard v0.3b
+Game Randomizer for Legacy of the Wizard v0.6b
 
 DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
 
