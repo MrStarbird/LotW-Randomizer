@@ -1,5 +1,5 @@
 # LotW-Randomizer
-Game Randomizer for Legacy of the Wizard v0.6b
+Game Randomizer for Legacy of the Wizard v0.61b
 
 DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
 
@@ -7,7 +7,7 @@ Thank you for taking the interest in viewing the Legacy of the Wizard randomizer
 
 USING THE RANDOMIZER
 
-0. Download the .zip file and run setup.
+0. Download the .zip file and run setup. If you already have a previous version installed, uninstall it prior to installing the new version if you have issues with the intall.
 1. Select what options you want to have OR enter up to 5 letters in the FLAG text box and press "Set Flag"
 2. Enter in any number from 0 to 99999999 (optional) into the "Seed #" field
 3. Click on the "Save Path" button and choose the location and file name you wish to save to
@@ -19,6 +19,10 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other NES roms have the same first 32 bytes as LotW. If this happens, please let me know.
 
 Version History:
+
+4/19/2017 - version 0.61b
+
+-Added a small "Sanity Check" for a chest in Meyna's area that is guarded by 3 powerful monsters, a ton of doors, and a spike. There is always a small chance that a crown could be in that chest and the three enemies that guard it are immune to damage until touched, and when touched deal 30 damage. This is way too difficult and can make a seed nearly unbeatable. By removing the spikes and replacing it with a solid block, it removes the need for wings at that spot and allows for you to hold onto a different item. This should balance the difficulty without too much change for now. This fix will most likely be temporary.
 
 4/13/2017 - version 0.6b
 
