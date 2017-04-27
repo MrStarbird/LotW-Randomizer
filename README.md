@@ -1,5 +1,5 @@
 # LotW-Randomizer
-Game Randomizer for Legacy of the Wizard v0.61b
+Game Randomizer for Legacy of the Wizard v0.7
 
 DISCLAIMER: By using this Randomizer, you assume all risks involved and do not hold me liable for any damages or file corruptions that may happen. USE AT YOUR OWN RISK!!!
 
@@ -19,6 +19,14 @@ NOTE: Though there is a validation process in the program to validate the rom, i
 It is also possible that other NES roms have the same first 32 bytes as LotW. If this happens, please let me know.
 
 Version History:
+
+4/27/2017 - version 0.7
+
+-Added options to change Enemies' HP, Damage, and Speed. 
+
+-Added option to block the shortcut in Lyll's Area to prevent use of Pause-jumping to the area where the Crown is in original game. Adds a bit of challenge.
+
+-Added option to randomize music in each zone.
 
 4/19/2017 - version 0.61b
 
@@ -110,9 +118,15 @@ NOTE: If any of the treasure options are selected other than default, then as a 
 
 NOTE: If the user chooses to keep the default treasure contents and chooses to change the shops, then the Home Shop, Level 1 Shop, and Dragon's Portrait hidden shop (which I had set to specific items for 70 gold a piece as a safety) will instead be added to the randomization or shuffle.
 
-4. Randomize Enemy Groups
+4. Change Enemies
 
-*User can choose to randomize what enemies appear in each area. The damage these enemies deal do NOT differ (think of it more or less as a sprite swap), though hopefully the option to change damage will be added for later versions).
+*User can choose to randomize what enemies appear in each area. This part is purely cosmetic.
+
+*User can choose to randomize how much Health an enemy has. The max health is 100, lower than the max of 255 in the original.
+
+*Users can choose to randomize how much damage an enemy does on contact. The max is 8, lower than the max of 100 in the original.
+
+*Users can choose to randomize how fast an enemy moves. Stationary enemies remain stationary.
 
 NOTE: There is a graphical bug that occurs currently with this option. The game is still playable without crashes (so far). Look in the Known Bugs section for details.
 
@@ -124,49 +138,46 @@ NOTE: There is a graphical bug that occurs currently with this option. The game 
 
 *Because of Pochi's invulnerability, I have decided to not allow him use of a Block-Moving item (would make him too powerful). He can possibly use any other top-row item.
 
+6. Randomize Music
+
+*User can choose to randomize what music plays in each of the 5 zones. There is a small issue with this in Lyll's area as there is a certain byte that still plays the original theme. 
+
+7. Remove Shortcut in Lyll's area
+
+*User can choose to block off a section of Lyll's area that can be accessed by continuous pause-jumping. This adds a bit of challenge but also a bit of safety on the upper end of that jump which will now prevent players from falling all the way down. 
+
 Here is what I hope to do in future releases:
 
-1. Randomize Dungeon Music
-
-Having this option would be cool, especially since there is an unreleased track that is pretty cool to listen to. This is a bit trickier than original intended as there is a 2nd byte somewhere in each scene that controls something else, so this option will be delayed a bit more.
-
-2. Randomize or have selectable pallette changes.
+1. Randomize or have selectable pallette changes.
 
 Nothing big, but something that could be fun for a change.
 
-3. Randomize chest locations
+2. Randomize chest locations
 
 There are 64 chests in the game, one per scene. Currently, they are all in the same spot, but it is possible to move them to a different spot within the scene. I would probably limit to some certain spots since we don't want them stuck in a wall or anything like that.
 
-4. Give option for MSX2 Layout
+3. Give option for MSX2 Layout
 
 The MSX2 version of the game offers quite a few differences from the NES version in terms of layout. If you have ever played either, you will notice that Lyll's level is VERY much different between versions. 
 
-5. Eliminate shortcuts
-
-I could possibly give an option for a player to give themselves a challenge by cutting off certain shortcuts (like in Lyll's level which is possible to skip most of it just by using the Pause-jump glitch). May or may not try this.
-
-6. Randomize Dungeon layouts
+4. Randomize Dungeon layouts
 
 This would be the ultimate goal of the randomizer. Currently, it is beyond my knowledge on how to make the layout random without making an absolute mess, but this still would be the best thing I could hope for in the randomizer. 
 
-7. Randomize Dragonslayer Location
+5. Randomize Dragonslayer Location
 
 This would be an option, but would make the game very easy as you could finish the game as soon as you find it without having to do all the crowns (unless the Dragonslayer was still in its original spot).
 
-8. Randomize Portrait teleports
+6. Randomize Portrait teleports
 
 I am not sure if this is possible at all, but it would be interesting if the program could make the portrait warps take you somewhere else. It would give quite a bit of a challenge, especially for those familiar with the game already.
 
-9. Randomize enemy stats
+Known Bugs/Issues:
 
-Each enemy in a screen has its own Sprite, Health, Speed, Damage, and Behavior. Randomizing each of these numbers for 64 scenes would be quite an undertaking, but it can be done. Possibly will be done within the next release or two.
-
-Known Bugs:
-
-There is a SLIGHT possibility that the seed generator could be different between users using the same seed number. I believe this has to do with users working on different versions of the .NET Framework, but for now it is possible.
+There is a SLIGHT possibility that the seed generator could be different between users using the same seed number. I believe this has to do with users working on different versions of the .NET Framework, but for now it is possible there could be differences. If you come across this issue, compare your version of the .NET Framework with the person you are racing against.
 
 THANKS:
+Big Thanks goes to NetBrian for finding many of the values needed to make this randomizer possible.
 
 Special Thanks goes to DarkwingDuckSDA, deranged_squirrel_fighter, PanzerDave, EunosXX, and DragonarchSDA for offering to test and play the randomizer. The feedback is greatly appreciated!
 
