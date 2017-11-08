@@ -1,6 +1,6 @@
-Legacy of the Wizard Randomizer v1.0
+Legacy of the Wizard Randomizer v1.0.1
 by: MrStarbird
-Date: November 7, 2017
+Date: November 8, 2017
 
 Contents:
 1. Version History
@@ -11,7 +11,14 @@ Contents:
 
 1. Version History
 
-11/7/2017 - version 0.8
+11/8/2017 - version 1.0.1
+
+-Fixed a bug where the Spoilers file was showing up blank.
+-Fixed a bug where the randomizer crashed when trying to randomize equipment.
+-Fixed a bug where the Bread Icon was not being represented.
+-Re-enabled Pochi to be able to possibly use the Crown and Dragonslayer.
+
+11/7/2017 - version 1.0
 
 -Added option to change the entire dungeon layout to represent the MSX Version of the game.
 -Changed Randomizer Layout Design to be a bit simpler.
@@ -20,6 +27,7 @@ Contents:
 -Consolidated Enemy Stat randomization into one option
 -Removed (for now) damage randomization for Enemy Stats
 -Pochi can no longer get the Crown or Dragonslayer if Equipment is randomized.
+-Rom file names now have the seed and flags automatically added to the end of the file name given.
 
 4/27/2017 - version 0.7
 
@@ -73,6 +81,11 @@ Contents:
 2. About the Legacy of the Wizard Randomizer
 
 The LotW Randomizer was designed to change the game so that it would feel like a different game every time you played it.
+
+Before installing the program, UNINSTALL any previous versions of the randomizer that you may have. This should solve a majority of
+compatibility issues.
+
+Select your options, pick your save file path(you can leave out the extension, this will be filled in automatically at the end), then when you choose to Randomize the Rom, select your ORIGINAL rom file (don't worry, this file will remain unaltered). A new file with your given name, seed number, and flags will be sent to your destination.
 
 3. Features and Options
 By mousing over each option, you can see a "brief" tooltip about what the option does and any notes or issues about said option.
