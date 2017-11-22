@@ -1,6 +1,6 @@
-Legacy of the Wizard Randomizer v1.0.1
+Legacy of the Wizard Randomizer v1.2.1
 by: MrStarbird
-Date: November 8, 2017
+Date: November 22, 2017
 
 Contents:
 1. Version History
@@ -10,6 +10,20 @@ Contents:
 5. Thanks
 
 1. Version History
+
+11/22/17 - version 1.2.0
+
+-Added Legend of Zelda and Link's Awakening Spritesets
+-Added # of Shots randomization for character stats
+-Added Shop spoilers to the Spoilers text file.
+-Fixed treasure randomization so that the block items won't be in places the item is needed to access.
+-Fixed shop randomization to remove chance of duplicate items in same shop.
+-Re-enabled enemy HP randomization
+-Fixed/balanced enemy stat randomization so that stats are scaled from original stat and not set at a certain number.
+-Removed safety shops at the beginning areas. Was no longer needed with the treasure fix.
+-Removed "Average Stats" option from Character Stats. 
+-Cleaned up code.
+-Slight UI changes.
 
 11/8/2017 - version 1.0.1
 
@@ -82,8 +96,7 @@ Contents:
 
 The LotW Randomizer was designed to change the game so that it would feel like a different game every time you played it.
 
-Before installing the program, UNINSTALL any previous versions of the randomizer that you may have. This should solve a majority of
-compatibility issues.
+Before installing the program, UNINSTALL any previous versions of the randomizer that you may have. This should solve a majority of compatibility issues.
 
 Select your options, pick your save file path(you can leave out the extension, this will be filled in automatically at the end), then when you choose to Randomize the Rom, select your ORIGINAL rom file (don't worry, this file will remain unaltered). A new file with your given name, seed number, and flags will be sent to your destination.
 
@@ -91,19 +104,24 @@ Select your options, pick your save file path(you can leave out the extension, t
 By mousing over each option, you can see a "brief" tooltip about what the option does and any notes or issues about said option.
 
 Treasure Randomization:
-Treasures in the game can be completely randomized or shuffled. If they are randomized, than the Crown and Dragonslayer will be located in their original spots. If they are shuffled, than the Crowns are also thrown into the pool of treasures. You can also choose between two half-bread options for shuffling. To keep from potential soft-locks at this point, the home shop and the two level 1 shops contain key items.
+Treasures in the game can be completely randomized or shuffled. The process first chooses the Mattock, Glove, or Crossbow and puts them into a "Safe Zone", which is in any room that can be accessed without any added block-breaking, height-gaining items, or pause-jumping. The
+game then throws the other 2 block items, the Wings, Magic Key, and Spring shoes into other
+chests. Then, depending on whether you shuffle or completely randomize, will fill the rest
+of the chests accordingly. The Dragonslayer is still in the same spot. Also, there is one
+less bread in all shuffles and the Dragon Shield is added.
 
 Shop Randomization:
-Just like treasures, shops can have a randomized inventory and prices, or the shops can be shuffled around to be in different spots. If there are no treasure randomization option selected, then the first three shops will have their inventories randomized as well.
+Just like treasures, shops can have a randomized inventory and prices, or the shops can be shuffled around to be in different spots. Randomized prices will always be in a multipe of
+5. 
 
 Character Stat Randomization:
-Each Character can have stat changes given to them. They can either have each of their three stats randomized, or each of their stats can match in either an average setting (where each stat is averaged between each character and then given to each character) or can be given super stats (the strongest stat from each character are given). Pochi's invulnerability is not randomized and still remains on Pochi.
+Each Character can have stat changes given to them for Jump, Strength, Distance, and # of Shots. These can be randomized or everybody can be given the best stats of each character. Pochi will always have invulnerability and rapid fire, something that cannot be changed.
 
 Enemy Randomization:
-Enemies groups can be randomized in each section (though this part is cosmetic and listed as Enemy Groups) and their Speed and Health can be randomized.
+Enemy Health, Speed, and Damage can be randomized, scaling up or down by about 50%.
 
 Equipment Randomization:
-What items a character can use can be randomized. To keep from any softlock potential, one character will be given a Mattock/Jump Shoe combo, one a Crossbow/Wing combo, and one a Glove. Only one person will be given use of the Crown and Dragonslayer. Pochi cannot use the Crossbow, Mattock, Glove, Crown, or Dragonslayer.
+What items a character can use can be randomized. To keep from any softlock potential, one character will be given a Mattock/Jump Shoe (or Wing) combo, one a Crossbow/Wing combo, and one a Glove. Only one person will be given use of the Crown and Dragonslayer. Pochi cannot use the Crossbow, Mattock, or Glove.
 
 Music Randomization:
 Though still in early stages, each section of the game gets a different music track. It is designed to be on a per-area basis, but sometimes each section will get a different track by accident. This is still being worked on, but should still work alright.
@@ -111,8 +129,11 @@ Though still in early stages, each section of the game gets a different music tr
 MSX-Style Dungeon:
 The game's dungeon can be altered to completely to (somewhat) match the style used in the original MSX version of the game. Treasures are different and boxes can be in different locations. Many of the sections have completely different designs. Overall, this form of the dungeon is a LOT harder.
 
+Sprite sets:
+For cosmetic purposes, the character, item, and enemy sprites can be changed to either the original Legend of Zelda or to Link's Awakening.
+
 Spoiler Option:
-By checking this option, you will recieve a text file in the same location as the randomized rom and with the same name. This will tell you what treasure is in what area.
+By checking this option, you will recieve a text file in the same location as the randomized rom and with the same name. This will tell you what treasure is in what area and what each shop contains.
 
 4. Known Issues
 
