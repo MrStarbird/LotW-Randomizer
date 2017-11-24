@@ -1,6 +1,6 @@
-Legacy of the Wizard Randomizer v1.2.1
+Legacy of the Wizard Randomizer v1.2.2
 by: MrStarbird
-Date: November 22, 2017
+Date: November 24, 2017
 
 Contents:
 1. Version History
@@ -10,6 +10,15 @@ Contents:
 5. Thanks
 
 1. Version History
+
+11/24/17 - version 1.2.2
+
+-Fixed bug where enemy damage randomization was randomizing beyond the limits given.
+-Fixed bug where enemy death animations were glitched when randomizing enemy stats.
+
+11/23/17 - version 1.2.1
+
+-Fixed bug where chosing the Legend of Zelda NES spritesheet would cause the game to crash on start.
 
 11/22/17 - version 1.2.0
 
