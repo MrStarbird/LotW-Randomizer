@@ -1,6 +1,6 @@
-Legacy of the Wizard Randomizer v1.3.0
+Legacy of the Wizard Randomizer v1.3.1
 by: MrStarbird
-Date: November 26, 2017
+Date: November 27, 2017
 =====================================================
 Contents:
 =====================================================
@@ -12,6 +12,13 @@ Contents:
 =====================================================
 1. Version History
 =====================================================
+Nov 27, 2017 - version 1.3.1
+
+-Fixed bug where the Shop at G-1 wasn't randomizing
+-Fixed bug where treasures were not randomizing properly
+-Upped the multiplier on enemy speed randomization
+-Re-added the Enemy Sprite randomization
+
 Nov 26, 2017 - version 1.3.0
 
 -Added Pochi God-Mode Option
