@@ -12,6 +12,14 @@ Contents:
 =====================================================
 1. Version History
 =====================================================
+Nov 28, 2017 - version 1.4.0
+
+-Redesigned UI, simplified it for easier loading and ease of access.
+-Added Mode Presets
+-Added Movement Speed Slider
+-Added Final Fantasy Light Warriors Character Sprites
+-Fixed major bug that forced Randomizer to close on completion. Users can now create multiple randomized roms without having to re-open the program
+
 Nov 27, 2017 - version 1.3.1
 
 -Fixed bug where the Shop at G-1 wasn't randomizing
@@ -138,6 +146,9 @@ Just like treasures, shops can have a randomized inventory and prices, or the sh
 Character Stat Randomization:
 Each Character can have stat changes given to them for Jump, Strength, Distance, and # of Shots. These can be randomized or everybody can be given the best stats of each character. There is a seperate safety option to allow the character with the Mattock to have a Jump stat of 26. Pochi will always have invulnerability and rapid fire, something that cannot be changed.
 
+Movement Speed:
+Users can choose to give their characters a higher movement speed. 1 is the default speed, 5 is like having Scroll Speed 4 permanently. Scrolls will only add to the speed if they would give you faster speed than you currently are. For instance, with a movement speed of 2, one scroll will not increase your speed, but two will.
+
 Enemy Randomization:
 Enemy Health, Speed, and Damage can be randomized, scaling up or down by about 50%.
 
@@ -151,16 +162,16 @@ MSX-Style Dungeon:
 The game's dungeon can be altered to completely to (somewhat) match the style used in the original MSX version of the game. Treasures are different and boxes can be in different locations. Many of the sections have completely different designs. Overall, this form of the dungeon is a LOT harder.
 
 Sprite sets:
-For cosmetic purposes, the character, item, and enemy sprites can be changed to either the original Legend of Zelda or to Link's Awakening.
-
-Spoiler Option:
-By checking this option, you will recieve a text file in the same location as the randomized rom and with the same name. This will tell you what treasure is in what area and what each shop contains.
+For cosmetic purposes, the character, item, and enemy sprites can be changed to either the original Legend of Zelda or to Link's Awakening. There is also a Character-only option which allows the user to play as the Light Warriors from Final Fantasy.
 
 God-Mode Pochi Option:
 There is an option that allows Pochi to use all items as well as give him 3 Power, 26 Jump, and 32 Distance. This is a good option for anybody who wants to explore the dungeon and solve the intricate puzzles without the fear of monsters killing them, or for anybody who just wants to mess around with the game.
 
 Challenge Options:
 There are two options that give the game extra challenges. Under the treasure options, there is the option to put only one of each key item (Mattock, Crossbow, Glove, Magic Key, Wings, Spring Shoes) in the chests witht he rest containing Bread, Magic, Keys, Money, Scrolls, Rings, Crosses, and even Poison. Under shop options, you can also change it so that all shops carry only Crystals and they are each sold for 50 Gold.
+
+Presets:
+Clicking on a preset, flags and options are automatically selected. Options can still be chosen after the preset is selected. Nothing is final until you click on the Randomize button.
 =====================================================
 4. Known Issues
 =====================================================
