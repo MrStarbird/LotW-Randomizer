@@ -1,6 +1,6 @@
 Legacy of the Wizard Randomizer v1.5.0
 by: MrStarbird
-Date: December 3, 2017
+Date: December 6, 2017
 =====================================================
 Contents:
 =====================================================
@@ -12,14 +12,14 @@ Contents:
 =====================================================
 1. Version History
 =====================================================
-Dec 3, 2017 - version 1.5.0
+Dec 6, 2017 - version 1.5.0
 
 -Fixed Rom randomization so that the original doesn't have to be selected every time
 -Added Batch Rom Generation
 -Added Infinite Magic option
 -Added Invulnerability and Rapid-Fire Randomization
--Added Portrait Teleport Shuffle (For NES Layout Only)
--Added Worzen-family sprite chances to Link's Awakening Spriteset
+-Added Portrait Teleport Shuffle
+-Added Worzen-family sprite changes to Link's Awakening Spriteset
 -Fixed Colors on White Mage for Final Fantasy spriteset
 
 Nov 28, 2017 - version 1.4.0
@@ -174,8 +174,7 @@ MSX-Style Dungeon:
 The game's dungeon can be altered to completely to (somewhat) match the style used in the original MSX version of the game. Treasures are different and boxes can be in different locations. Many of the sections have completely different designs. Overall, this form of the dungeon is a LOT harder.
 
 Portrait Shuffle:
-Where the portals take you from the portraits can be shufffled. Since the NES and MSX versions have different portraits, each option has
-their own different shuffle pattern.
+Where the portals take you from the portraits can be shufffled. 
 
 Sprite sets:
 For cosmetic purposes, the character, item, and enemy sprites can be changed to either the original Legend of Zelda or to Link's Awakening. There is also a Character-only option which allows the user to play as the Light Warriors from Final Fantasy.
