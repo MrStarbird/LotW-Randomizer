@@ -1,6 +1,6 @@
-Legacy of the Wizard Randomizer v1.3.1
+Legacy of the Wizard Randomizer v1.5.0
 by: MrStarbird
-Date: November 27, 2017
+Date: December 3, 2017
 =====================================================
 Contents:
 =====================================================
@@ -12,6 +12,16 @@ Contents:
 =====================================================
 1. Version History
 =====================================================
+Dec 3, 2017 - version 1.5.0
+
+-Fixed Rom randomization so that the original doesn't have to be selected every time
+-Added Batch Rom Generation
+-Added Infinite Magic option
+-Added Invulnerability and Rapid-Fire Randomization
+-Added Portrait Teleport Shuffle (For NES Layout Only)
+-Added Worzen-family sprite chances to Link's Awakening Spriteset
+-Fixed Colors on White Mage for Final Fantasy spriteset
+
 Nov 28, 2017 - version 1.4.0
 
 -Redesigned UI, simplified it for easier loading and ease of access.
@@ -131,7 +141,7 @@ The LotW Randomizer was designed to change the game so that it would feel like a
 
 Before installing the program, UNINSTALL any previous versions of the randomizer that you may have. This should solve a majority of compatibility issues.
 
-Select your options, pick your save file path(you can leave out the extension, this will be filled in automatically at the end), then when you choose to Randomize the Rom, select your ORIGINAL rom file (don't worry, this file will remain unaltered). A new file with your given name, seed number, and flags will be sent to your destination.
+Select your original file, select your save path, enter your seed (optional) and then select your options or presets. When you're ready, press the "Randomize Rom(s)" button you will be given as many randomized roms as the number beside the button (up to 10).
 =====================================================
 3. Features and Options
 =====================================================
@@ -143,8 +153,10 @@ Treasures in the game can be completely randomized or shuffled. The process firs
 Shop Randomization:
 Just like treasures, shops can have a randomized inventory and prices, or the shops can be shuffled around to be in different spots. Randomized prices will always be in a multipe of 5. 
 
-Character Stat Randomization:
+Character Randomization:
 Each Character can have stat changes given to them for Jump, Strength, Distance, and # of Shots. These can be randomized or everybody can be given the best stats of each character. There is a seperate safety option to allow the character with the Mattock to have a Jump stat of 26. Pochi will always have invulnerability and rapid fire, something that cannot be changed.
+
+You can also choose to shuffle the Invulnerability and Rapid Fire options that Pochi normally has. If you select this AND equipment randomization, Pochi will also have a chance of being able to use a block-moving item.
 
 Movement Speed:
 Users can choose to give their characters a higher movement speed. 1 is the default speed, 5 is like having Scroll Speed 4 permanently. Scrolls will only add to the speed if they would give you faster speed than you currently are. For instance, with a movement speed of 2, one scroll will not increase your speed, but two will.
@@ -161,11 +173,18 @@ Though still in early stages, each section of the game gets a different music tr
 MSX-Style Dungeon:
 The game's dungeon can be altered to completely to (somewhat) match the style used in the original MSX version of the game. Treasures are different and boxes can be in different locations. Many of the sections have completely different designs. Overall, this form of the dungeon is a LOT harder.
 
+Portrait Shuffle:
+Where the portals take you from the portraits can be shufffled. Since the NES and MSX versions have different portraits, each option has
+their own different shuffle pattern.
+
 Sprite sets:
 For cosmetic purposes, the character, item, and enemy sprites can be changed to either the original Legend of Zelda or to Link's Awakening. There is also a Character-only option which allows the user to play as the Light Warriors from Final Fantasy.
 
 God-Mode Pochi Option:
 There is an option that allows Pochi to use all items as well as give him 3 Power, 26 Jump, and 32 Distance. This is a good option for anybody who wants to explore the dungeon and solve the intricate puzzles without the fear of monsters killing them, or for anybody who just wants to mess around with the game.
+
+Infinite Magic:
+Users can choose to have an unlimited supply of Magic.
 
 Challenge Options:
 There are two options that give the game extra challenges. Under the treasure options, there is the option to put only one of each key item (Mattock, Crossbow, Glove, Magic Key, Wings, Spring Shoes) in the chests witht he rest containing Bread, Magic, Keys, Money, Scrolls, Rings, Crosses, and even Poison. Under shop options, you can also change it so that all shops carry only Crystals and they are each sold for 50 Gold.
@@ -176,6 +195,7 @@ Clicking on a preset, flags and options are automatically selected. Options can 
 4. Known Issues
 =====================================================
 -There is a slight possibility that the randomizer could give different outcomes and still have the same seed and flags if two different people use it. This most likely is an issue with different versions of the .NET Framework.
+-There may be possible scenarios where a Portrait Shuffle could cause a loop that is inescapable and would create a situation where you would have to die in order to return (thus possibly losing the Dragonslayer). If you see this situation, please inform me with the portrait locations and where the portraits lead to.
 =====================================================
 5. Thanks
 =====================================================
