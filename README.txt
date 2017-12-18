@@ -1,6 +1,6 @@
-Legacy of the Wizard Randomizer v1.5.0
+Legacy of the Wizard Randomizer v1.5.1
 by: MrStarbird
-Date: December 6, 2017
+Date: December 18, 2017
 =====================================================
 Contents:
 =====================================================
@@ -12,6 +12,11 @@ Contents:
 =====================================================
 1. Version History
 =====================================================
+Dec 18, 2017 - version 1.5.1
+
+-Fixed bug where Xemn was always getting invulnerability during shuffle of invulnerability.
+-Fixed bug where Crossbow had at chance of showing up in two chests and Glove not showing up at all (happened in about every 1 in 6 roms randomized).
+
 Dec 6, 2017 - version 1.5.0
 
 -Fixed Rom randomization so that the original doesn't have to be selected every time
